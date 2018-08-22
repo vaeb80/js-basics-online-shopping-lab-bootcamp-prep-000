@@ -57,7 +57,7 @@ function removeFromCart(item) {
       i = n;
     }
   }
-  cart.splice(i)
+  cart.splice(i, 3)
   return cart
 }
 
