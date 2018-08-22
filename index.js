@@ -57,10 +57,7 @@ function removeFromCart(item) {
       i = n;
     }
   }
-  var beg = cart.slice(0, i)
-  var end = cart.slice(i + 1)
-  cart = cart.length - 1
-  cart = [beg, end]
+  cart.splice(n,1)
   return cart
 }
 
